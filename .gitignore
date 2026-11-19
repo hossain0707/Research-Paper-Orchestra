@@ -1,0 +1,22 @@
+# Local and generated content
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+dist/
+build/
+*.egg-info/
+outputs/
+manuscript/
+*.log
+*.aux
+*.bbl
+*.blg
+*.synctex.gz

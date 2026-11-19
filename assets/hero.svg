@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="t d">
+<title id="t">Research Paper Orchestra</title><desc id="d">A five-agent workflow for evidence-grounded academic paper writing</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081829"/><stop offset=".58" stop-color="#0d2d45"/><stop offset="1" stop-color="#064d51"/></linearGradient><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#143a52"/><stop offset="1" stop-color="#10444a"/></linearGradient><linearGradient id="wave" x1="0" x2="1"><stop stop-color="#35c3bd" stop-opacity=".05"/><stop offset=".5" stop-color="#85ece0" stop-opacity=".55"/><stop offset="1" stop-color="#35c3bd" stop-opacity=".04"/></linearGradient><style>
+.text{font-family:Inter,Segoe UI,Arial,sans-serif}.card{fill:url(#card);stroke:#4a94a7;stroke-width:1;opacity:.96}.kicker{fill:#8bdcd5;font-size:12px;letter-spacing:3px;font-weight:700}.title{fill:white;font-size:50px;font-weight:750;letter-spacing:-1.5px}.desc{fill:#bdcedb;font-size:17px}.n{fill:#66d4cd;font-size:13px;font-weight:700}.role{fill:#ffffff;font-size:16px;font-weight:650}.small{fill:#b9d1d9;font-size:12px}.edge{stroke:#73cfc6;stroke-width:2;stroke-dasharray:7 9;animation:move 8s linear infinite;opacity:.75}@keyframes move{to{stroke-dashoffset:-128}}.glow{animation:blink 5s ease-in-out infinite}@keyframes blink{0%,100%{opacity:.45}50%{opacity:1}}@media (prefers-reduced-motion:reduce){.edge,.glow{animation:none}}
+</style></defs>
+<rect width="1280" height="400" rx="18" fill="url(#bg)"/>
+<circle cx="1070" cy="0" r="300" fill="url(#wave)" opacity=".5"/><circle cx="170" cy="400" r="240" fill="url(#wave)" opacity=".4"/>
+<g opacity=".14" stroke="#70d9d2"><path d="M0 81H1280M0 163H1280M0 245H1280M0 327H1280"/><path d="M120 0V400M360 0V400M600 0V400M840 0V400M1080 0V400"/></g>
+<text x="68" y="68" class="text kicker">RESEARCH ENGINEERING · CHATGPT WORKFLOW</text>
+<text x="68" y="130" class="text title">Research Paper Orchestra</text>
+<text x="69" y="164" class="text desc">Five roles. One evidence trail. Research you can inspect.</text>
+<line x1="152" y1="260" x2="1128" y2="260" class="edge"/>
+<g class="glow"><circle cx="150" cy="260" r="5" fill="#94fff0"/><circle cx="1128" cy="260" r="5" fill="#94fff0"/></g>
+<g transform="translate(67 204)"><rect width="208" height="124" rx="13" class="card"/><text x="17" y="26" class="text n">01 / STRATEGY</text><text x="17" y="58" class="text role">Outline Agent</text><text x="17" y="82" class="text small">Claims and contribution</text><text x="17" y="101" class="text small">map</text></g>
+<g transform="translate(301 204)"><rect width="208" height="124" rx="13" class="card"/><text x="17" y="26" class="text n">02 / EVIDENCE</text><text x="17" y="58" class="text role">Plotting Agent</text><text x="17" y="82" class="text small">Real results and</text><text x="17" y="101" class="text small">reproducible figures</text></g>
+<g transform="translate(535 204)"><rect width="208" height="124" rx="13" class="card"/><text x="17" y="26" class="text n">03 / SOURCES</text><text x="17" y="58" class="text role">Literature Agent</text><text x="17" y="82" class="text small">Source verification</text><text x="17" y="101" class="text small">and citation ledger</text></g>
+<g transform="translate(769 204)"><rect width="208" height="124" rx="13" class="card"/><text x="17" y="26" class="text n">04 / DRAFT</text><text x="17" y="58" class="text role">Writing Agent</text><text x="17" y="82" class="text small">Evidence-grounded</text><text x="17" y="101" class="text small">manuscript in LaTeX</text></g>
+<g transform="translate(1003 204)"><rect width="208" height="124" rx="13" class="card"/><text x="17" y="26" class="text n">05 / QUALITY</text><text x="17" y="58" class="text role">Reviewer Agent</text><text x="17" y="82" class="text small">Independent critique</text><text x="17" y="101" class="text small">and revision loop</text></g>
+<text x="68" y="364" class="text small">EVIDENCE INTAKE   →   SCIENTIFIC PLANNING   →   REPRODUCIBLE OUTPUTS   →   CRITICAL REVIEW</text>
+</svg>
