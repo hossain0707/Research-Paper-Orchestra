@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Md Najmul Hossain"
+  },
+  "description": "Private five-stage, evidence-grounded research manuscript creation and peer-review workflow for ChatGPT, inspired by Google Research's PaperOrchestra.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "Create a research paper from my idea and experiment logs using all five roles. Ask me only for essential missing material.",
+          "Review my current manuscript as a strict journal reviewer, verify citations, and give a prioritized revision plan.",
+          "Convert my research results into figures, tables, and a target-venue LaTeX manuscript."
+        ],
+        "developerName": "Md Najmul Hossain",
+        "displayName": "Research Paper Orchestra",
+        "logo": "./assets/icon.svg",
+        "longDescription": "Build and revise evidence-grounded manuscripts using a five-stage ChatGPT workflow: outline, plots, literature review, manuscript drafting, and critical peer review. Supports real research inputs, LaTeX and venue templates, verified references, and transparent quality checks.",
+        "shortDescription": "Five-stage academic writing"
+      }
+    }
+  },
+  "homepage": "https://github.com/hossain0707/Research-Paper-Orchestra",
+  "keywords": [
+    "research",
+    "academic writing",
+    "latex",
+    "references",
+    "data visualization",
+    "peer review"
+  ],
+  "name": "research-paper-orchestra",
+  "version": "1.0.0"
+}

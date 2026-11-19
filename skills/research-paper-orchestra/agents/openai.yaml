@@ -1,0 +1,9 @@
+interface:
+  display_name: Research Paper Orchestra
+  short_description: Five-stage manuscript workflow
+  default_prompt: Create a rigorous research manuscript using the five-stage Research Paper Orchestra workflow, with verified citations, grounded figures, LaTeX and strict review.
+policy:
+  allow_implicit_invocation: true
+  products:
+    - CHAT
+    - CODEX
